@@ -1,2 +1,3 @@
 # Rock-Paper-Scissors
-A rock, paper, scissors game
+
+A 5 round rock, paper and scissors game 
