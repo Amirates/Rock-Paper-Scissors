@@ -11,3 +11,11 @@ function getComputerChoice(){
 }
 
 //Playerselection
+function getPlayerSelection(){
+   let playerChoice = prompt("Type rock, paper or scissors");
+   while (playerChoice == null){
+      playerChoice = prompt("Type rock, paper or scissors");
+   }
+   playerChoice = playerChoice.toLowerCase();
+   console.log(playerChoice);
+}
