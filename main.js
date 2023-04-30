@@ -6,6 +6,7 @@ function game() {
    for (let i = 1; i <= 5; i++){
       playRound(i)
    }
+   document.querySelector("button").textContent = "Play new game";
    logWins();
 }
 
@@ -29,6 +30,7 @@ function getPlayerSelection(){
    let playerChoice = prompt("Type rock, paper or scissors");
    while (playerChoice == null){
       playerChoice = prompt("Type rock, paper or scissors");
+      
    }
    playerChoice = playerChoice.toLowerCase();
    let choiceValidation = validateInput(playerChoice);
@@ -38,6 +40,7 @@ function getPlayerSelection(){
       );
       while (playerChoice == null){
          playerChoice = prompt("Type rock, paper or scissors");
+         
       }  
       playerChoice = playerChoice.toLowerCase();
       choiceValidation = validateInput(playerChoice); 
