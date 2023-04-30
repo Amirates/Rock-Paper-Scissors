@@ -4,3 +4,5 @@
 - Played against the computer
 - Gamed is played in the console
 
+Live url: https://amirates.github.io/Rock-Paper-Scissors/
+
